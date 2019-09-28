@@ -1,6 +1,6 @@
 steps:
 # Install
-- name: 'gcr.io/cloud-builders/npm@current'
+- name: 'gcr.io/cloud-builders/npm:current'
   args: ['install']
 # Test
 # - name: 'gcr.io/cloud-builders/npm'
